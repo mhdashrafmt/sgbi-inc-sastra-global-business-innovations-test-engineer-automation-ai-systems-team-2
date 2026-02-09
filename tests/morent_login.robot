@@ -9,7 +9,7 @@ MoRent Login Test
     
     # 1. Email Step
     Wait Until Element Is Visible    ${EMAIL_FIELD}    15s
-    Input Text      ${EMAIL_FIELD}    ashrafmt855@gmail.com
+    Input Text      ${EMAIL_FIELD}     doe+clerk_test@example.com
     Sleep                            1s
     
     # Blue button click aakunnu ennu urappu varuthaam
@@ -19,7 +19,7 @@ MoRent Login Test
     
    # Password Step
    Wait Until Element Is Visible    ${PASS_FIELD}     15s
-    Input Password                   ${PASS_FIELD}      Ashraf@"123
+    Input Password                   ${PASS_FIELD}     morenttest@12345
     # Password-nu shesham ulla button click cheyyunnu
     Wait Until Element Is Visible    ${PASS_CONT}      15s
     Click Element                    ${PASS_CONT}
